@@ -11,14 +11,39 @@ The primary source of our data used for this project is an HR data from the comp
 
 ### Tools Used
 - Power BI which can be downloaded from the Microsoft Store or [Download here](https://apps.microsoft.com/detail/9ntxr16hnw1t?launch=true&mode=full&hl=en-us&gl=ng&ocid=bingwebsearch)
-  - For creating Calculated Measures
-  - For Creating Calculatd Colunm
-  - Using Matrix to show relationships between data
-  - Tables also for showing relationships
-  - Add Colunm to add or insert formulas you will like to see
-  - Conditional Colunm to help ensure your conditions are either true or false
-  - Cards to help show measurement Values
-  - Slicers to help connect your visuals and
-  - Charts to also confirm relationships or show imparts of various measures.
- 
+  1. For creating Calculated Measures
+  2. For Creating Calculatd Colunm
+  3. Using Matrix to show relationships between data
+  4. Tables also for showing relationships
+  5. Add Colunm to add or insert formulas you will like to see
+  6. Conditional Colunm to help ensure your conditions are either true or false
+  7. Cards to help show measurement Values
+  8. Slicers to help connect your visuals and
+  9. Charts to also confirm relationships or show imparts of various measures.
+  10. For Data Visualization
+
+ ### Data Cleaning and Preparation
+ In the initial phase of the Data cleaning and preparation we were able to carry out the following;
+  1. Data loading from excel into the BI environment by selecting the Transform data
+  2. Where promoted headers were deleted and first role where transformed to header
+  3. Then we checked our Data type to ensure they are all sitting under the bucket they are meant to sit under.
+  4. Also under the Transform Data we were able to preview or Data under view to check its quality, profile and Distribution
+  5. After which we built the total number of employee clicking on the Employee count under the HR Data
+  6. We later worked on getting the attrition count by utilizing the Q&A under the card option another means is by using the Conditonal Colunm
+  7. Also we were able to formaat our Visual to suite what and how we need it to be or look like.
+  8. We also sorted the age group to come from the lowest to the largest using the Conditional Colunm 
+
+### Exploratory Data Analysis
+This involved using the Data we have from the HR to answer some questions such as;
+ -The total Number of Employee in the company
+ -The remaining Employee after some left
+ -Average Age of all Employee ever worked in the company
+ -Attrition Count by Department
+ -Age group
+
+ ### Data Analysis
+ This includes some of the DAX expressions we were during our Analysis ;
+ ```Power BI
+= Table.AddColumn(#"Changed Type4", "Job Satisfaction Rating", each if [Job Satisfaction] = 1 then "Very Dissatisfied" else if [Job Satisfaction] = 2 then "Dissatisfied" else if [Job Satisfaction] = 3 then "Satisfied" else 4)
+```
   
