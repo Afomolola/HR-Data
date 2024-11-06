@@ -53,32 +53,9 @@ For your training about knowing more on Data Analysis, I will advise you follow 
 
 ### Data Visualization
 
-  ![Applied Steps](https://github.com/user-attachments/assets/80f02816-6f72-4d0a-83eb-a825140dd2ef)
-
-  
-  
-  
-  ![image (9)](https://github.com/user-attachments/assets/14e2a31f-b727-41d3-bb93-2c9c8553ed71)
-
-  
-  
-![image (10)](https://github.com/user-attachments/assets/e17738df-44a7-4900-9728-7cc0e3259fb1)
 
 
 
-![image (12)](https://github.com/user-attachments/assets/305ced5c-f8ef-4203-9de5-e9b382779572)
-
-
-
-![image (11)](https://github.com/user-attachments/assets/073bcea4-a35f-46f7-8170-a2fe48e090fb)
-
-
-
-![image (13)](https://github.com/user-attachments/assets/9516147b-b75f-422d-befe-186599e6eb35)
-
-
-
-![image (14)](https://github.com/user-attachments/assets/5d8d2dc2-8e7f-475e-98b1-2664de165ba8)
 
 
 
