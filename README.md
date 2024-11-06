@@ -47,4 +47,10 @@ This involved using the Data we have from the HR to answer some questions such a
 = Table.AddColumn(#"Changed Type4", "Job Satisfaction Rating", each if [Job Satisfaction] = 1 then "Very Dissatisfied" else if [Job Satisfaction] = 2 then "Dissatisfied" else if [Job Satisfaction] = 3 then "Satisfied" else 4)
 = Table.Sort(#"Changed Type3",{{"CF_age band", Order.Ascending}})
 ```
+
+### Recommendation
+For your training about knowing more on Data Analysis, I will advise you follow the Incubator Hub as they have the best facilitators to put you through on every necessary teaching to start your Data Analysis Career
+
+### Data Visualization
+
   
