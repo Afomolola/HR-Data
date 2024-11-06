@@ -53,6 +53,7 @@ For your training about knowing more on Data Analysis, I will advise you follow 
 
 ### Data Visualization
 
+![Applied Steps](https://github.com/user-attachments/assets/2146a628-cefd-4a7a-9ec6-4ef4cbd08744)
 
 
 
