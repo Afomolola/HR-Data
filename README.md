@@ -35,15 +35,16 @@ The primary source of our data used for this project is an HR data from the comp
 
 ### Exploratory Data Analysis
 This involved using the Data we have from the HR to answer some questions such as;
- -The total Number of Employee in the company
- -The remaining Employee after some left
- -Average Age of all Employee ever worked in the company
- -Attrition Count by Department
- -Age group
+ 1. The total Number of Employee in the company
+ 2. The remaining Employee after some left
+ 3. Average Age of all Employee ever worked in the company
+ 4. Attrition Count by Department
+ 5. Age group
 
  ### Data Analysis
  This includes some of the DAX expressions we were during our Analysis ;
  ```Power BI
 = Table.AddColumn(#"Changed Type4", "Job Satisfaction Rating", each if [Job Satisfaction] = 1 then "Very Dissatisfied" else if [Job Satisfaction] = 2 then "Dissatisfied" else if [Job Satisfaction] = 3 then "Satisfied" else 4)
+= Table.Sort(#"Changed Type3",{{"CF_age band", Order.Ascending}})
 ```
   
