@@ -1,11 +1,17 @@
 # HR-Data
 HR Data representation of a Company
 [Project Overview](#project-overview)
+
 [Data Sources](#data-source)
+
  [Tools Used](#tool-used)
+ 
 [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
  [Exploratory Data Analysis](#exploratory-data-analysis)
+ 
  [Data Analysis](#data-analysis)
+ 
  [Recommendation](#recommendation)
  
 ### Project Title: HR Insight on Attrition and Satisfaction of Employee in an Organization
