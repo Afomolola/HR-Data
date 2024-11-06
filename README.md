@@ -1,5 +1,6 @@
 # HR-Data
 HR Data representation of a Company
+
 [Project Overview](#project-overview)
 
 [Data Sources](#data-source)
@@ -13,6 +14,8 @@ HR Data representation of a Company
  [Data Analysis](#data-analysis)
  
  [Recommendation](#recommendation)
+
+ [Data Visualization](#data-visualization)
  
 ### Project Title: HR Insight on Attrition and Satisfaction of Employee in an Organization
 
